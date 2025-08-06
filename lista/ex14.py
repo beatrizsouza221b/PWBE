@@ -1,10 +1,10 @@
 def fibonacci(n):
-    seq = []
+    sequencia = []
     a, b = 0, 1
     for _ in range(n):
-        seq.append(a)
+        sequencia.append(a)
         a, b = b, a + b
-    return seq
+    return sequencia
 
 # Exemplo de uso:
 n = int(input("Quantos termos da sequência de Fibonacci? "))

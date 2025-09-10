@@ -5,7 +5,7 @@ class SuperHeroi:
         self.capa = True
 
     def salvar(self):
-        print(f"{self.nome} salvou o mundo! Parabéns")
+        print(f"{self.nome} salvou o mundo! Parabéns!!")
 
     def comer(self, comida):
         print(f"{self.nome} comeu {comida}")
@@ -22,7 +22,7 @@ Super_Heroi_1 = SuperHeroi("Spider-Man", "Soltar veias");
 Super_Heroi_1.salvar()
 Super_Heroi_1.destruir_carros(2)
 Super_Heroi_1.derrotar_vilao("Doende verde")
-Super_Heroi_1.poder = "dormir"
+Super_Heroi_1.poder = "soltar teias"
 Super_Heroi_1.destruir_carros(5)
 
 super_heroi_2 = SuperHeroi("Homem de ferro", "Inteligencia")

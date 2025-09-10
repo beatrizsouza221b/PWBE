@@ -5,7 +5,7 @@ class Produto:
         self.qtd_disponivel = qtd_disponivel
 
     def mostrar_estoque(self):
-        print(f"Produto: {self.nome_produto},\nPreço: R${self.preco_uni}\nQuantidade em esquete{self.qtd_disponivel}")
+        print(f"Produto: {self.nome_produto},\nPreço: R${self.preco_uni}\nQuantidade em estoque:{self.qtd_disponivel}")
 
 produto_1 = Produto("Celular", "R$2000,00", "200")
 produto_1.mostrar_estoque()

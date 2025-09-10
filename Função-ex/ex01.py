@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #decimal para binario
 def decimal_para_binario(numero):
     binario = ""
@@ -8,10 +7,6 @@ def decimal_para_binario(numero):
         numero = numero // 2      # // descarta o resto 
     return binario
 
-numero = int(input("Digite um número para trnsformá-lo em binário: "))
+numero = int(input("Digite um número para transformá-lo em binário: "))
 numero_binario = decimal_para_binario(numero)
 print(f"O número decimal {numero} em binário é: {numero_binario}")
-=======
-for i in range(11):
-    print(i)
->>>>>>> 356f9c7db0d01f814c9ef6c49e9c330222580ab6

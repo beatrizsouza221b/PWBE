@@ -1,0 +1,10 @@
+{
+    "name": "Bia",
+    "version": "1.0",
+    "authors": ["Dorval"],
+    "description": "Só robo",
+    "homepage": "",
+    "countryCodes": ["br"],
+    "platform": "Python 3.12+",
+    "programmingLang": "Python 3.12"
+}
